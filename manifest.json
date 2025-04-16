@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "DevtoolsTest",
+	"short_name": "DevtoolsTest",
+	"description": "Simple devtools test",
+	"version": "0.1",
+	"icons": {
+		"16": "icon.png"
+	},
+	"devtools_page": "devtools/init.html",
+	"options_page": "content/content.html",
+	"browser_action": {
+		"default_popup": "popup/popup.html"
+	},
+	"permissions": [
+		"storage"
+	],
+	"content_security_policy": "script-src 'self'; object-src 'self'"
+}
